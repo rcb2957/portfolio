@@ -5,7 +5,9 @@ function About() {
 
     return (
         <>
-           <p>Under Construction</p> 
+           <p>Under Construction</p>
+           <h2>Languages I Work With</h2>
+           
         </>
     );
 }

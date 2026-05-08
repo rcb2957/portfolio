@@ -5,6 +5,7 @@ function Contact() {
 
     return (
         <>
+            {/* HTML listing means of contacting Riley Brotz */}
             <h2>Contact</h2>
             <p>Professional Email: rileybrotz@gmail.com</p>
             <p>Personal GitHub: <a href="https://www.github.com/rcb2957">https://www.github.com/rcb2957</a></p>
