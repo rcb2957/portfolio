@@ -15,7 +15,7 @@ function App() {
     <>
       <div>
         <BrowserRouter>
-          {/* Navbar */}
+          {/* Links to the different pages of the site */}
           <nav>
             <Link to="/">Home</Link> |{" "}
             <Link to="/about">About</Link> |{" "}
@@ -25,7 +25,7 @@ function App() {
 
           <hr />
 
-          {/* Route switching */}
+          {/* Switch between the different pages of the site */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
