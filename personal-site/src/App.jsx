@@ -1,12 +1,18 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import Home from './Home.jsx'
 import './App.css'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
-function Home() {
-  return <h1>Home Page</h1>;
-}
+// function Home() {
+//   return (
+//     <div>
+//       <Home />
+//     </div>
+//   );
+//   // return <h1>Home Page</h1>;
+// }
 
 function About() {
   return <h1>About Page</h1>;
@@ -40,14 +46,14 @@ function App() {
           </Routes>
         </BrowserRouter>
 
-        <a href="https://vite.dev" target="_blank">
+        {/* <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        </a> */}
       </div>
-      <h1>Vite + React</h1>
+      {/* <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -58,9 +64,9 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
+      </p> */}
     </>
-  )
+  );
 }
 
 export default App
