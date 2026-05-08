@@ -2,25 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Home from './Home.jsx'
+import About from './About.jsx'
+import Contact from './Contact.jsx'
+import Projects from './Projects.jsx'
 import './App.css'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-
-// function Home() {
-//   return (
-//     <div>
-//       <Home />
-//     </div>
-//   );
-//   // return <h1>Home Page</h1>;
-// }
-
-function About() {
-  return <h1>About Page</h1>;
-}
-
-function Contact() {
-  return <h1>Contact Page</h1>;
-}
 
 function App() {
   const [count, setCount] = useState(0)
@@ -33,6 +19,7 @@ function App() {
           <nav>
             <Link to="/">Home</Link> |{" "}
             <Link to="/about">About</Link> |{" "}
+            <Link to="/projects">Projects</Link> |{" "}
             <Link to="/contact">Contact</Link>
           </nav>
 
@@ -42,6 +29,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </BrowserRouter>

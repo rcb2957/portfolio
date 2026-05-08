@@ -2,18 +2,9 @@ import { useState } from 'react'
 import './App.css'
 
 function Home() {
-    // const [count, setCount] = useState(0)
 
     return (
         <>
-            {/* <BrowserRouter>
-            <Navbar />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/contact" element={<Contact />} />
-            </Routes>
-            </BrowserRouter> */}
             <h1>Riley Brotz</h1>
             <h2>Summary</h2>
             <p> I&apos;m interested in turning ideas into working systems, learning through real projects, and collaborating with others to solve practical problems.</p>
