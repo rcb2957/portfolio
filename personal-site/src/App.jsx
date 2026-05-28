@@ -17,6 +17,7 @@ function App() {
     {/* <a href="/resume.pdf" download>
       Download Resume
     </a> */}
+    {/* Add Light VS Dark Mode Toggle */}
       <div>
         <BrowserRouter>
           {/* Links to the different pages of the site */}
