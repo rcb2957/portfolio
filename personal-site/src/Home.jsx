@@ -10,6 +10,11 @@ function Home() {
             <h2>Summary</h2>
             <p> I&apos;m interested in turning ideas into working systems, learning through real projects, and collaborating with others to solve practical problems.</p>
 
+            {/* Certifications Section */}
+            <h2>Certifications</h2>
+            <p>AWS Certified Cloud Practitioner</p>
+            <p>May 2026</p>
+
             {/* Achievements Section */}
             <h2>Achievements</h2>
             <h3>Pathfinding Algorithm</h3>
