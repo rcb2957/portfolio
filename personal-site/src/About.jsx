@@ -5,6 +5,11 @@ function About() {
 
     return (
         <>
+            {/* About Me Description */}
+            <h2>About Me</h2>
+            <p></p>
+
+            {/* Education Section */}
             <h2>Education</h2>
             <h3>Rochester Institute of Technology</h3>
             <p>January 2021 - May 2024</p>
