@@ -5,6 +5,16 @@ function About() {
 
     return (
         <>
+            <h2>Education</h2>
+            <h3>Rochester Institute of Technology</h3>
+            <p>January 2021 - May 2024</p>
+            <ul>
+                <li>Bachelor of Science</li>
+                <li>Major in Software Engineering</li>
+                <li>Minor in Web Development</li>
+                <li>Graduated Cum Laude</li>
+            </ul>
+
             <h2>Languages I Work With</h2>
             <ul>
                 <li>Java</li>
