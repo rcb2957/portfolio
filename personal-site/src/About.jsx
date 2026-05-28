@@ -15,6 +15,12 @@ function About() {
                 <li>Graduated Cum Laude</li>
             </ul>
 
+            {/* Certifications Section */}
+            <h2>Certifications</h2>
+            <p>AWS Certified Cloud Practitioner</p>
+            <p>May 2026</p>
+
+            {/* Programming Languages HTML */}
             <h2>Languages I Work With</h2>
             <ul>
                 <li>Java</li>
@@ -32,12 +38,14 @@ function About() {
                 <li>C</li>
             </ul>
 
+            {/* Libraries HTML */}
             <h2>Libraries</h2>
             <ul>
                 <li>React</li>
                 <li>jQuery</li>
             </ul>
 
+            {/* Frameworks HTML */}
             <h2>Frameworks</h2>
             <ul>
                 <li>Bootstrap</li>
@@ -49,7 +57,8 @@ function About() {
                 <li>Selenium</li>
             </ul>
 
-            <h2>Development Tools I Have Used</h2>
+            {/* Development Tools HTML */}
+            <h2>Development Tools</h2>
             <ul>
                 <li>GitHub</li>
                 <li>Figma</li>
@@ -63,6 +72,7 @@ function About() {
                 <li>Postman</li>
             </ul>
 
+            {/* Other Skills HTML */}
             <h2>Skills</h2>
             <ul>
                 <li>RESTful APIs</li>
