@@ -1,3 +1,23 @@
+body {
+    background-color: #000000; /* Uses a HEX code */
+}
+
+h2{
+  color: #02f3f3
+}
+
+h3{
+  color: #08db0b
+}
+
+p{
+  color: #ffffff;
+}
+
+li{
+  color: #ffffff;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
