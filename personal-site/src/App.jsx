@@ -5,6 +5,7 @@ import Home from './Home.jsx'
 import About from './About.jsx'
 import Contact from './Contact.jsx'
 import Projects from './Projects.jsx'
+import Work from './Work.jsx'
 import './App.css'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
@@ -33,7 +34,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/work" element={<About />} />
+            <Route path="/work" element={<Work />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
