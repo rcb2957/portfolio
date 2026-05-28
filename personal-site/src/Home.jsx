@@ -8,7 +8,7 @@ function Home() {
             <h1>Hello, I'm Riley Brotz</h1>
             {/* Summary */}
             <h2>Summary</h2>
-            <p> I&apos;m interested in turning ideas into working systems, learning through real projects, and collaborating with others to solve practical problems.</p>
+            <p> I enjoy turning ideas into working systems, learning through real-world projects, and collaborating with others to solve practical problems.</p>
 
             {/* Certifications Section */}
             <h2>Certifications</h2>
