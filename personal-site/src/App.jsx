@@ -13,6 +13,9 @@ function App() {
 
   return (
     <>
+    {/* <a href="/resume.pdf" download>
+      Download Resume
+    </a> */}
       <div>
         <BrowserRouter>
           {/* Links to the different pages of the site */}
@@ -20,6 +23,7 @@ function App() {
             <Link to="/">Home</Link> |{" "}
             <Link to="/about">About</Link> |{" "}
             <Link to="/projects">Projects</Link> |{" "}
+            <Link to="/work">Work Experience</Link> |{" "}
             <Link to="/contact">Contact</Link>
           </nav>
 
@@ -29,6 +33,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/work" element={<About />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
