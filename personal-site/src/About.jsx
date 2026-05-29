@@ -56,7 +56,6 @@ function About() {
                 <li>Angular</li>
                 <li>JUnit</li>
                 <li>pytest</li>
-                <li>Node.js</li>
                 <li>Spring</li>
                 <li>Selenium</li>
             </ul>
