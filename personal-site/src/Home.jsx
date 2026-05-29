@@ -15,8 +15,7 @@ function Home() {
 
                     {/* Certifications Section */}
                     <h2>Certifications</h2>
-                    <p>AWS Certified Cloud Practitioner</p>
-                    <p>May 2026</p>
+                    <p>AWS Certified Cloud Practitioner (May 2026)</p>
 
                     {/* Achievements Section */}
                     <h2>Achievements</h2>
