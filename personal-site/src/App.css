@@ -1,46 +1,56 @@
+/* Dark Mode Styling (Default) */
 body {
     background-color: #000000;
     --p-color: #ffffff;
     --li-color: #ffffff;
 }
 
+/* Main Introduction Header on Home Page */
 h1{
   color: #202ef3
 }
 
+/* Section Headers */
 h2{
   color: #02f3f3
 }
 
+/* Subsection Headers */
 h3{
   color: #08db0b
 }
 
+/* Set paragraphs to update color with light and dark mode */
 p{
   color: var(--p-color)
 }
 
+/* Set list entries to update color with light and dark mode */
 li{
   color: var(--li-color)
 }
 
+/* Portrait of Riley Brotz on the home page */
 #portrait{
   width: 300px;
   height: auto;
 }
 
+/* Flexbox Grid */
 .grid {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
 
+/* Element within grid */
 .section{
   flex: 1 1 300px;
   padding: 20px;
   border-radius: 10px;
 }
 
+/* Light Mode Styling */
 .light-mode{
   background-color: #ffffff;
   --p-color: #000000;
