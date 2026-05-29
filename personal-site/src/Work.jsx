@@ -7,7 +7,7 @@ function Work() {
             <h2>Work Experience</h2>
 
             {/* Innovation Fellows Work Experience HTML */}
-            <h3>Innovation Fellows Programe</h3>
+            <h3>Innovation Fellows Program</h3>
             <p>June 2023 - August 2023</p>
             <p>Web Developer</p>
             <p>Rochester, NY</p>
