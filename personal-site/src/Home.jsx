@@ -4,7 +4,12 @@ function Home() {
 
     return (
         <>
+            
             <h1>Hello, I'm Riley Brotz</h1>
+            <div className="">
+                <img id="portrait" src="/portrait.jpg" alt="Riley Brotz" />
+            </div>
+            <div className="">
             {/* Summary */}
             <h2>Summary</h2>
             <p> I enjoy turning ideas into working systems, learning through real-world projects, and collaborating with others to solve practical problems.</p>
@@ -19,10 +24,12 @@ function Home() {
             <h3>Pathfinding Algorithm</h3>
             <p> Achieved first place in a competition aimed at developing a pathfinding algorithm that calculates the shortest path 
                 between all of the listed destinations in the Buffalo area.</p>
+            </div>
 
             {/* Links to other accounts */}
             <h2>Links</h2>
             <a href="https://www.github.com/rcb2957">Personal GitHub</a>
+            <br/>
             <a href="https://www.linkedin.com/in/riley-brotz">LinkedIn</a>
         </>
     );

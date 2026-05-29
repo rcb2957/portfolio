@@ -20,6 +20,11 @@ li{
   color: var(--li-color)
 }
 
+#portrait{
+  width: 300px;
+  height: auto;
+}
+
 .light-mode{
   background-color: #ffffff;
   --p-color: #000000;
