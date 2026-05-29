@@ -14,10 +14,11 @@ function App() {
 
   return (
     <>
-    {/* <a href="/resume.pdf" download>
-      Download Resume
-    </a> */}
-    {/* Add Light VS Dark Mode Toggle */}
+      {/* Link to Download Resume */}
+      <a href="/resume.pdf" download>
+        Download Resume
+      </a>
+      {/* Add Light VS Dark Mode Toggle */}
       <div>
         <BrowserRouter>
           {/* Links to the different pages of the site */}
