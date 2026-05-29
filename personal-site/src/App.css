@@ -1,5 +1,7 @@
 body {
-    background-color: #000000; /* Uses a HEX code */
+    background-color: #000000;
+    --p-color: #ffffff;
+    --li-color: #ffffff;
 }
 
 h2{
@@ -11,14 +13,22 @@ h3{
 }
 
 p{
-  color: #ffffff;
+  color: var(--p-color)
 }
 
 li{
-  color: #ffffff;
+  color: var(--li-color)
+}
+
+.light-mode{
+  background-color: #ffffff;
+  --p-color: #000000;
+  --li-color: #000000;
 }
 
 #root {
+  /* background-color: #000000;
+  --p-color: #ffffff; */
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;

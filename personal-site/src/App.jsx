@@ -12,13 +12,22 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 function App() {
   const [count, setCount] = useState(0)
 
+  function toggleTheme() {
+    document.body.classList.toggle("light-mode");
+  }
+
   return (
     <>
       {/* Link to Download Resume */}
       <a href="/resume.pdf" download>
         Download Resume
       </a>
-      {/* Add Light VS Dark Mode Toggle */}
+
+      {/* Light VS Dark Mode Toggle */}
+      <button onClick={toggleTheme}>
+        Toggle Theme
+      </button>
+
       <div>
         <BrowserRouter>
           {/* Links to the different pages of the site */}
