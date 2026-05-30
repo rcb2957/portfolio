@@ -32,7 +32,7 @@ function Home() {
                 </div>
 
                 {/* Portrait of Riley Brotz */}
-                <div className="section">
+                <div className="section" id="portrait-container">
                     <img id="portrait" src="/portrait.jpg" alt="Riley Brotz" />
                 </div>
             </div>

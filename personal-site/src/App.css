@@ -39,7 +39,7 @@ li{
 /* Flexbox Grid */
 .grid {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   gap: 20px;
 }
 
@@ -62,4 +62,21 @@ li{
   margin: 0 auto;
   padding: 2rem;
   text-align: left;
+}
+
+/* CSS Styling for Mobile View of the Site*/
+@media (max-width: 700px){
+
+  /* Center the portrait */
+  #portrait-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Lists grid as a set of columns in mobile view */
+  .grid{
+    flex-direction: column-reverse;
+    justify-items: center;
+  }
+  
 }
