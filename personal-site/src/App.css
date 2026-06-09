@@ -36,7 +36,7 @@ li{
   height: auto;
 }
 
-/* Flexbox Grid */
+/* Flexbox Grid (Home and About Pages) */
 .grid {
   display: flex;
   flex-direction: row;
@@ -50,6 +50,13 @@ li{
   flex-direction: row;
   width: 100%;
    gap: 20px;
+}
+
+/* Adds space between the Light/Dark Toggle and Download Resume buttons */
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 /* Element within grid */
@@ -81,13 +88,13 @@ li{
 /* CSS Styling for Mobile View of the Site*/
 @media (max-width: 700px){
 
-  /* Center the portrait */
+  /* Center the portrait (Home Page) */
   #portrait-container{
     display: flex;
     justify-content: center;
   }
 
-  /* Lists grid as a set of columns in mobile view */
+  /* Lists grid as a set of columns in mobile view (Home and About pages)*/
   .grid{
     flex-direction: column-reverse;
     justify-items: center;
