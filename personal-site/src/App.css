@@ -7,27 +7,32 @@ body {
 
 /* Main Introduction Header on Home Page */
 h1{
-  color: #202ef3
+  color: #202ef3;
+  font-size: 50px;
 }
 
 /* Section Headers */
 h2{
-  color: #02f3f3
+  color: #02f3f3;
+  font-size: 30px;
 }
 
 /* Subsection Headers */
 h3{
-  color: #08db0b
+  color: #08db0b;
+  font-size: 25px;
 }
 
 /* Set paragraphs to update color with light and dark mode */
 p{
-  color: var(--p-color)
+  color: var(--p-color);
+  font-size: 20px;
 }
 
 /* Set list entries to update color with light and dark mode */
 li{
-  color: var(--li-color)
+  color: var(--li-color);
+  font-size: 20px;
 }
 
 /* Portrait of Riley Brotz on the home page */
