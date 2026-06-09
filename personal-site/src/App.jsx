@@ -13,70 +13,51 @@ function toggleTheme() {
 function App() {
 
   return (
-    // <>
-      // <div className="nav-grid">
+    
+      <BrowserRouter>
 
-      //     <div>
-      //       {/* Link to Download Resume */}
-      //       <a href="/resume.pdf" download>
-      //         Download Resume
-      //       </a>
-      //     </div>
+          <div className="nav-grid">
 
-      //     <div>
-      //       {/* Light VS Dark Mode Toggle */}
-      //       <button onClick={toggleTheme}>
-      //         Toggle Theme
-      //       </button>
-      //     </div>
+              <div>
+                  {/* Links to the different pages of the site */}
+                  <nav>
+                      <Link to="/">Home</Link> |{" "}
+                      <Link to="/about">About</Link> |{" "}
+                      <Link to="/projects">Projects</Link> |{" "}
+                      <Link to="/work">Work Experience</Link> |{" "}
+                      <Link to="/contact">Contact</Link>
+                  </nav>
+              </div>
 
-        
-          <BrowserRouter>
+              
+              <div className = "nav-buttons">
 
-              <div className="nav-grid">
+                  {/* Light VS Dark Mode Toggle */}
+                  <button onClick={toggleTheme}>
+                    Toggle Theme
+                  </button>
 
-                  <div>
-                      {/* Links to the different pages of the site */}
-                      <nav>
-                          <Link to="/">Home</Link> |{" "}
-                          <Link to="/about">About</Link> |{" "}
-                          <Link to="/projects">Projects</Link> |{" "}
-                          <Link to="/work">Work Experience</Link> |{" "}
-                          <Link to="/contact">Contact</Link>
-                      </nav>
-                  </div>
-
-                  
-                  <div className = "nav-buttons">
-
-                      {/* Light VS Dark Mode Toggle */}
-                      <button onClick={toggleTheme}>
-                          Toggle Theme
-                      </button>
-
-                      {/* Link to Download Resume */}
-                      <a href="/resume.pdf" download>
-                          Download Resume
-                      </a>
-
-                  </div>
+                  {/* Link to Download Resume */}
+                  <a href="/resume.pdf" download>
+                    Download Resume
+                  </a>
 
               </div>
-              <hr />
 
-              {/* Switch between the different pages of the site */}
-              <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/work" element={<Work />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/contact" element={<Contact />} />
-              </Routes>
+          </div>
+          <hr />
 
-          </BrowserRouter>
+          {/* Switch between the different pages of the site */}
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/work" element={<Work />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
 
-      // </div>
-    // </>
+      </BrowserRouter>
+
   );
 }
 
