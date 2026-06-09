@@ -43,6 +43,12 @@ li{
   gap: 20px;
 }
 
+/* Element within grid */
+.section{
+  padding: 20px;
+  border-radius: 10px;
+}
+
 /* Flexbox grid for the nav bar */
 .nav-grid{
   justify-content: space-between;
@@ -57,12 +63,6 @@ li{
   display: flex;
   align-items: center;
   gap: 15px;
-}
-
-/* Element within grid */
-.section{
-  padding: 20px;
-  border-radius: 10px;
 }
 
 /* Light Mode Styling */
