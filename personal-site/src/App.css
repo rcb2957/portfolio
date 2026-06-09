@@ -72,11 +72,6 @@ li{
   --li-color: #000000;
 }
 
-/* Move light/dark mode and download resume buttons to right of nav bar on desktop */
-/* .nav-buttons{
-  s
-} */
-
 #root {
   max-width: 1280px;
   margin: 0 auto;
