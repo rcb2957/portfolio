@@ -28,7 +28,6 @@ function App() {
                       <Link to="/contact">Contact</Link>
                   </nav>
               </div>
-
               
               <div className = "nav-buttons">
 
