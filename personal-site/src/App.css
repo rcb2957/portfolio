@@ -90,6 +90,7 @@ li{
   --li-color: #000000;
 }
 
+/* Default CSS styling for the site layout */
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -120,6 +121,7 @@ li{
   
 }
 
+/* Styling for smaller view windows that are not mobile view */
 @media (max-width: 1000px){
 
   /* Flexbox Grid for Skillset Sections on About Page */
