@@ -48,8 +48,21 @@ li{
   gap: 20px;
 }
 
+/* Flexbox Grid for Skillset Sections on About Page */
+#skillset{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
 /* Element within grid */
 .section{
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Element within grid */
+.subsection{
   padding: 20px;
   border-radius: 10px;
 }
@@ -93,10 +106,31 @@ li{
     justify-content: center;
   }
 
-  /* Lists grid as a set of columns in mobile view (Home and About pages)*/
+  /* Lists grid as a set of columns in mobile view (Home page)*/
   .grid{
     flex-direction: column-reverse;
     justify-items: center;
   }
+
+  /* Lists grid as a set of columns in mobile view (About page)*/
+  #about{
+    flex-direction: column;
+    justify-items: center;
+  }
   
+}
+
+@media (max-width: 1000px){
+
+  /* Flexbox Grid for Skillset Sections on About Page */
+  #skillset{
+    flex-direction: column;
+    justify-items: center;
+  }
+
+  /* Removes spacing between skillset lists to flow better when in column form */
+  .subsection{
+    padding: 0px;
+    border-radius: 0px;
+  }
 }

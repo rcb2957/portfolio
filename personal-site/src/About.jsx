@@ -3,7 +3,7 @@ import './App.css'
 function About() {
 
     return (  
-        <div className="grid">
+        <div className="grid" id="about">
 
             <div className="section">
 
@@ -34,8 +34,8 @@ function About() {
 
             </div>
 
-            <div className = "section">
-
+            <div className = "section" id="skillset">
+                <div className = "subsection">
                 {/* Programming Languages HTML */}
                 <h2>Languages I Work With</h2>
                 <ul>
@@ -72,6 +72,9 @@ function About() {
                     <li>Selenium</li>
                 </ul>
 
+                </div>
+                <div className = "subsection">
+
                 {/* Development Tools HTML */}
                 <h2>Development Tools</h2>
                 <ul>
@@ -99,7 +102,7 @@ function About() {
                     <li>Scrum</li>
                     <li>Agile Development</li>
                 </ul>
-                
+                </div>
             </div>
         </div>
     );
