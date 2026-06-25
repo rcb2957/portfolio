@@ -32,6 +32,15 @@ function Projects() {
                 <li>Completed a series of coding challenges released during the 2024 Advent calendar</li>
                 <li>Utilized programming languages such as Java, Python, Kotlin, and C#</li>
             </ul>
+
+            {/* M&T Bank Coding Challenge */}
+            <h3>Basic-Crypto-Challenge-2022 (M&T Bank)</h3>    
+            <p>July 2022 - August 2022</p>
+            <ul>
+                <li>Developed methods for encryption and decryption of messages using caesar and vigenere cyphers.</li>
+                <li>Practiced bruteforcing messages encrypted through these cyphers to test the efficiency of these encryption methods.</li>
+            </ul> 
+
         </>
     );
 }

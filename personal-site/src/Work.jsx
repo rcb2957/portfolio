@@ -39,7 +39,8 @@ function Work() {
                 <li>Collaborated on a small Agile team to develop software for the environment dashboard meant to test the main application the team works on.</li>
                 <li>Utilized Angular and created methods to make SOAP and REST API calls to get data from the backend server.</li>
                 <li>Improved UI of the dashboard to facilitate usability using Bootstrap and TypeScript</li>
-                <li>Saved the company approximately $200,000 to $400,000</li>
+                <li>Identified and implemented a no-cost alternative to a licensed solution, reducing projected tooling costs by approximately 
+                    $200K-$400K for a 100+ developer team</li>
                 <li>Trained in Cloud Computing, Communication, Python Bootcamp, Fraud Prevention, Cybersecurity</li>
             </ul>
         </>
