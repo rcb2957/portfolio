@@ -55,8 +55,12 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
 
+          {/* Footer listing */}
+          <footer>
+            <p>© 2026 All Rights Reserved</p>
+          </footer>
       </BrowserRouter>
-
+      
   );
 }
 

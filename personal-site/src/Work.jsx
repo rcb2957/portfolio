@@ -26,7 +26,7 @@ function Work() {
             <ul>
                 <li>Collaborated on a small team to develop automated tests for the company portal to test if the insurance claim statuses matched the expected claim statuses</li>
                 <li>Utilized Java alongside Selenium and CSS to retrieve elements from the webpage and use them in tests</li>
-                <li>Created automated tests for the webpage that would be used by the company</li>
+                <li>Built methods to pull retrieve claims data from a third party website</li>
                 <li>Trained in Selenium, workflows, JUnit, and Python</li>
             </ul>
 
