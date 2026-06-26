@@ -39,41 +39,42 @@ function About() {
 
             <div className = "section" id="skillset">
                 <div className = "subsection">
-                {/* Programming Languages HTML */}
-                <h2>Languages I Work With</h2>
-                <ul>
-                    <li>Java</li>
-                    <li>PostgreSQL</li>
-                    <li>MySQL</li>
-                    <li>Python</li>
-                    <li>C#</li>
-                    <li>TypeScript</li>
-                    <li>JavaScript</li>
-                    <li>JSON</li>
-                    <li>XML</li>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>PHP</li>
-                    <li>C</li>
-                </ul>
+                
+                    {/* Programming Languages HTML */}
+                    <h2>Languages I Work With</h2>
+                    <ul>
+                        <li>Java</li>
+                        <li>PostgreSQL</li>
+                        <li>MySQL</li>
+                        <li>Python</li>
+                        <li>C#</li>
+                        <li>TypeScript</li>
+                        <li>JavaScript</li>
+                        <li>JSON</li>
+                        <li>XML</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>PHP</li>
+                        <li>C</li>
+                    </ul>
 
-                {/* Libraries HTML */}
-                <h2>Libraries</h2>
-                <ul>
-                    <li>React</li>
-                    <li>jQuery</li>
-                </ul>
+                    {/* Libraries HTML */}
+                    <h2>Libraries</h2>
+                    <ul>
+                        <li>React</li>
+                        <li>jQuery</li>
+                    </ul>
 
-                {/* Frameworks HTML */}
-                <h2>Frameworks</h2>
-                <ul>
-                    <li>Bootstrap</li>
-                    <li>Angular</li>
-                    <li>JUnit</li>
-                    <li>pytest</li>
-                    <li>Spring</li>
-                    <li>Selenium</li>
-                </ul>
+                    {/* Frameworks HTML */}
+                    <h2>Frameworks</h2>
+                    <ul>
+                        <li>Bootstrap</li>
+                        <li>Angular</li>
+                        <li>JUnit</li>
+                        <li>pytest</li>
+                        <li>Spring</li>
+                        <li>Selenium</li>
+                    </ul>
 
                 </div>
                 <div className = "subsection">
