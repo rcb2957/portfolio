@@ -30,7 +30,10 @@ function About() {
 
                 {/* Certifications Section */}
                 <h2>Certifications</h2>
-                <p>AWS Certified Cloud Practitioner (May 2026)</p>
+                <div className ="subsection">
+                    <img src="/aws-certified-cloud-practitioner.png" alt="AWS Cert"></img>
+                    <p>AWS Certified Cloud Practitioner (May 2026)</p>
+                </div>
 
             </div>
 
