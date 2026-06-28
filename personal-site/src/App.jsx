@@ -55,9 +55,21 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
 
-          {/* Footer listing */}
+          {/* Footer */}
           <footer>
-            <p>© 2026 All Rights Reserved</p>
+
+            {/* Links to the different pages of the site */}
+            <nav>
+                <Link to="/">Home</Link> |{" "}
+                <Link to="/about">About</Link> |{" "}
+                <Link to="/projects">Projects</Link> |{" "}
+                <Link to="/work">Work Experience</Link> |{" "}
+                <Link to="/contact">Contact</Link>
+            </nav>
+
+            {/*Copyright listing and year made*/}
+            <p>© 2026 Riley Brotz All Rights Reserved</p>
+
           </footer>
       </BrowserRouter>
       
