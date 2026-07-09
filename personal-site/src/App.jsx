@@ -54,12 +54,14 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
+          <br />
 
           {/* Footer */}
           <footer>
-
+            <hr />
+            <br />
             {/* Links to the different pages of the site */}
-            <nav>
+            <nav id="footer_nav">
                 <Link to="/">Home</Link> |{" "}
                 <Link to="/about">About</Link> |{" "}
                 <Link to="/projects">Projects</Link> |{" "}

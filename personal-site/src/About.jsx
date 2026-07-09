@@ -30,9 +30,9 @@ function About() {
 
                 {/* Certifications Section */}
                 <h2>Certifications</h2>
-                <div className ="subsection">
-                    <img src="/aws-certified-cloud-practitioner.png" alt="AWS Cert"></img>
-                    <p>AWS Certified Cloud Practitioner (May 2026)</p>
+                <div className ="cert_div">
+                    <img className="cert" src="/aws-certified-cloud-practitioner.png" alt="AWS Cert"></img>
+                    <a href="https://www.credly.com/badges/1a9485ab-cc9b-4a97-a000-0da103309c05">AWS Certified Cloud Practitioner (May 2026)</a>
                 </div>
 
             </div>
