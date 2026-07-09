@@ -8,9 +8,10 @@ function Work() {
 
             {/* Innovation Fellows Work Experience HTML */}
             <h3>Innovation Fellows Program</h3>
-            <p>June 2023 - August 2023</p>
+            <p>Web Developer | June 2023 - August 2023 | Rochester, NY</p>
+            {/* <p>June 2023 - August 2023</p>
             <p>Web Developer</p>
-            <p>Rochester, NY</p>
+            <p>Rochester, NY</p> */}
             <ul>
                 <li>Collaborated on a team of two other developers to revamp Resonant Technology Group&apos;s website to appeal to their target demographic</li>
                 <li>Examined Resonant Technology Group&apos;s website to find aspects of it that can be improved by the team</li>
@@ -20,9 +21,10 @@ function Work() {
 
             {/* Excellus Blue Cross Blue Shield Experience HTML */}
             <h3>Excellus Blue Cross Blue Shield </h3>
-            <p>January 2023 - May 2023</p>
+            <p>Software Testing Intern | January 2023 - May 2023 | Rochester, NY</p>
+            {/* <p>January 2023 - May 2023</p>
             <p>Software Testing Intern</p>
-            <p>Rochester, NY</p>
+            <p>Rochester, NY</p> */}
             <ul>
                 <li>Collaborated on a small team to develop automated tests for the company portal to test if the insurance claim statuses matched the expected claim statuses</li>
                 <li>Utilized Java alongside Selenium and CSS to retrieve elements from the webpage and use them in tests</li>
@@ -32,9 +34,10 @@ function Work() {
 
             {/* M&T Bank Experience HTML */}
             <h3>M&T Bank</h3>
-            <p>June 2022 - August 2022</p>
+            <p>Software Developer Intern | June 2022 - August 2022 | Buffalo, NY</p>
+            {/* <p>June 2022 - August 2022</p>
             <p>Software Developer Intern</p>
-            <p>Buffalo, NY</p>
+            <p>Buffalo, NY</p> */}
             <ul>
                 <li>Collaborated on a small Agile team to develop software for the environment dashboard meant to test the main application the team works on.</li>
                 <li>Utilized Angular and created methods to make SOAP and REST API calls to get data from the backend server.</li>
