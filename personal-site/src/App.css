@@ -103,6 +103,11 @@ li{
   --li-color: #000000;
 }
 
+/* Footer Navbar Styling */
+#footer_nav{
+  text-align: center;
+}
+
 /* Default CSS styling for the site layout */
 #root {
   max-width: 1280px;

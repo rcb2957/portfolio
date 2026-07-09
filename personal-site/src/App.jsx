@@ -57,18 +57,18 @@ function App() {
           <br />
 
           {/* Footer */}
-          <footer>
+          <footer id="footer_nav">
             <hr />
             <br />
             {/* Links to the different pages of the site */}
-            <nav id="footer_nav">
+            <nav>
                 <Link to="/">Home</Link> |{" "}
                 <Link to="/about">About</Link> |{" "}
                 <Link to="/projects">Projects</Link> |{" "}
                 <Link to="/work">Work Experience</Link> |{" "}
                 <Link to="/contact">Contact</Link>
             </nav>
-
+            <br />
             {/*Copyright listing and year made*/}
             <p>© 2026 Riley Brotz All Rights Reserved</p>
 
