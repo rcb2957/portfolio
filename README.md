@@ -40,7 +40,7 @@ public/<br>
 └── vite.svg<br>
 src/<br>
 ├───|assets/<br>
-    └── react.svg<br>
+&nbsp;&nbsp;&nbsp;&nbsp;└── react.svg<br>
 ├── About.jsx<br>
 ├── App.css<br>
 ├── App.jsx<br>
