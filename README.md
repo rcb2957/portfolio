@@ -33,11 +33,11 @@ This portfolio features my accomplishments, provides information about my work e
 
 ## Project Structure
 
-public/
-├── aws-certified-cloud-practitioner.png
-├── portrait.jpg
-├── resume.pdf
-└── vite.svg
+public/<br>
+├── aws-certified-cloud-practitioner.png<br>
+├── portrait.jpg<br>
+├── resume.pdf<br>
+└── vite.svg<br>
 src/
 ├───|assets/
     └── react.svg
@@ -50,7 +50,6 @@ src/
 ├── main.jsx
 ├── Projects.jsx
 └── Work.jsx
-
 .gitignore
 eslint.config.js
 package-lock.json
