@@ -38,24 +38,24 @@ public/<br>
 ├── portrait.jpg<br>
 ├── resume.pdf<br>
 └── vite.svg<br>
-src/
-├───|assets/
-    └── react.svg
-├── About.jsx
-├── App.css
-├── App.jsx
-├── Contact.jsx
-├── Home.jsx
-├── index.css
-├── main.jsx
-├── Projects.jsx
-└── Work.jsx
-.gitignore
-eslint.config.js
-package-lock.json
-package.json
-index.html
-README.md
+src/<br>
+├───|assets/<br>
+    └── react.svg<br>
+├── About.jsx<br>
+├── App.css<br>
+├── App.jsx<br>
+├── Contact.jsx<br>
+├── Home.jsx<br>
+├── index.css<br>
+├── main.jsx<br>
+├── Projects.jsx<br>
+└── Work.jsx<br>
+.gitignore<br>
+eslint.config.js<br>
+package-lock.json<br>
+package.json<br>
+index.html<br>
+README.md<br>
 vite.config.js
 
 ## What I Learned
