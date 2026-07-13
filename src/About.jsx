@@ -10,11 +10,13 @@ function About() {
                 {/* About Me Description */}
                 <h2>About Me</h2>
                 <p>
-                    I'm a software developer with experience building applications in Java, Python, TypeScript, and C#.
-                    Through multiple full-stack projects, I have worked extensively with SQL databases, building queries,
-                    and integrating data-based functionality into full-stack web applications. My experience developing
-                    these applications have also taught me how to utilize REST APIs and React to design better applications.  
-                    I enjoy building reliable software that solves problems and growing my skills as a software engineer.
+                    I'm a software developer who enjoys building full-stack web applications and continuously learning new technologies.
+                    I've developed applications using Java, Python, TypeScript, and C#, and have experience building software for 
+                    projects in the finance, healthcare, agricultural technology, and higher education industries.  My experience 
+                    includes developing responsive React front ends, building REST APIs, and working with SQL databases to create 
+                    data-driven applications. Through these projects, I've learned how to build software that is maintainable, reliable, 
+                    and focused on solving real-world problems.  As an early-career software engineer, I'm excited to continue growing my 
+                    technical skills, collaborating with other developers, and contributing to meaningful software projects.
                 </p>
 
                 {/* Education Section */}
