@@ -13,6 +13,7 @@ function Projects() {
                 <li>Designed and developed a personal website to showcase my portfolio and projects</li>
                 <li>Utilized HTML and CSS for structure and styling</li>
                 <li>Implemented responsive design principles to ensure compatibility across devices</li>
+                <li>Deployed the site on AWS by uploading the files to an S3 bucket accessed by CloudFront</li>
             </ul>
 
             {/* Career Readiness Dashboard Project HTML */}
