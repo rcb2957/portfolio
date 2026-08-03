@@ -8,7 +8,7 @@ function Projects() {
 
             {/* Personal Website Project HTML */}
             <h3>Personal Website</h3>
-            <p>December 2025 - May 2026</p>
+            <p>December 2025 - July 2026</p>
             <ul>
                 <li>Designed and developed a personal website to showcase my portfolio and projects</li>
                 <li>Utilized HTML and CSS for structure and styling</li>
